@@ -7,7 +7,7 @@ from langchain.chains import LLMChain
 app = Flask(__name__)
 
 # Set your API key (you can hide this or load it from an environment variable for production)
-os.environ["GROQ_API_KEY"] = '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'
+os.environ["GROQ_API_KEY"] = 'GROQ_API_KEY'
 
 # Define a watermarking function that inserts a single invisible Unicode character at frequent intervals
 def apply_unicode_watermark(generated_text, interval=5):
